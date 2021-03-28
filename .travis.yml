@@ -1,0 +1,26 @@
+dist: trusty
+os: linux
+language: android
+jdk: oraclejdk8
+
+android:
+ components:
+    - tools
+    - platform-tools
+    - tools
+    # Note that the tools section appears twice on purpose as it’s required
+    # to get the newest Android SDK tools. Source: Travis CI docs.
+    - build-tools-30.0.3
+    - extra
+    
+notifications:
+  email: true
+    
+before_install:
+- yes | sdkmanager "platforms;android-30"
+
+before_script:
+- chmod +x gradlew
+
+script:
+- ./gradlew clean build
