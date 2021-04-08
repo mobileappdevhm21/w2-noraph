@@ -15,7 +15,7 @@
   -->
 
 <resources>
-    <string name="app_name">Kotlin Trivia</string>
+    <string name="app_name">KotlinTrivia</string>
     <string name="game_over">Game Over</string>
     <string name="try_again">Try Again?</string>
     <string name="position">Position</string>
