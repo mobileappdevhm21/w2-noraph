@@ -1,0 +1,30 @@
+[
+    {
+    "text": "With what symbol you can implement an interface in Kotlin?",
+    "answers": [":", ";", "implements", ">"]
+    },
+    {
+      "text": "What kind of programming language kotlin are?",
+      "answers": ["Object Orientated and Functional" ,"Object Orientated", "Functional", "Procedural"]
+    },
+    {
+      "text": "What is the current version of Kotlin? (Status: 08.04.2021)",
+      "answers": ["1.4.32", "1.5.0", "2.1.13", "1.0.52"]
+    },
+    {
+      "text": "In what cases you can use Kotlin?",
+      "answers": ["all of them and more", "Android development", "server-side development", "web development"]
+    },
+    {
+      "text": "What build tools support Kotlin?",
+      "answers": ["All listed build tools", "Gradle" ,"Maven", "Ant"]
+    },
+    {
+      "text": "Whats the difference between 'val' and 'var'?",
+      "answers": ["val is constant, var is not" ,"var is constant, val is not", "there is no difference", "val is used globally, var is used within functions"]
+    },
+    {
+      "text": "Whats the profit of using 'lateinit'?",
+      "answers": ["you don´t have to assign 'null' to a variable on initialization" ,"you tell the compiler, that the variable is used later", "you tell the compiler that the initialization-process will take longer", "the assignment to the var happens in a background-thread"]
+    }
+]
